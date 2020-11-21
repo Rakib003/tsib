@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-teal, .btn-teal {
+  background-color: #236666 !important;
+}
+
+.text-teal {
+  color: #236666 !important;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+  width: 175px;
+  height: 60px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 2px;
+  background-color: #236666;
+}
+
+ul li a:hover {
+  background-color: brown;
+}
+
+ul li ul li {
+  display: none;
+  opacity: 1;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 800px;
+}
+
+.carousel .carousel-indicators li {
+  width: 30px;
+  height: 5px;
+  border-radius: 0%
+}
+
+.carousel-caption {
+  bottom: 200px;
+}
+
+#wellcome p {
+  font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    bottom: 20px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 30px;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+}
+
+.col-md-6 {
+  padding: 20px;
+}
+
+.des {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.hotel {
+  font-size: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form {
+  font-size: 20px;
+  padding: 40px;
+}
+
+#allcomments {
+  width: 100%;
+  margin: 1em 0 4em 1em;
+  padding: 1%;
+  border: solid 1px gray;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px silver;
+  width: 1500px;
+}
+
+ul#pastcomments {
+  list-style-type: none;
+}
+
+ul#pastcomments li:before {
+  font-family: FontAwesome;
+  content: "\f086";
+  font-size: 24pt;
+  color: gray;
+  margin-left: 10px;
+  padding-right: 20px;
+  position: relative;
+  top: 4px;
+}
+
+ul#pastcomments li {
+  margin: 0 0 2 0;
+  padding: 10px;
+}
+
+ul#pastcomments li span {
+  font-size: 80%;
+  color: gray;
+  font-style: italic;
+}
+
+form#newcomment textarea {
+  height: 72px;
+}
+
+form#newcomment label {
+  display: inline-block;
+  margin: 1em 0 0 0;
+}
+
+form#newcomment textarea,
+form#newcomment input[type="text"] {
+  margin-top: 0;
+}
